@@ -5,6 +5,7 @@
 	box-sizing: border-box;
 }
 
+
 body {
 	background-color: #9b59b6;
 	font-family: 'Open Sans', sans-serif;
@@ -22,6 +23,7 @@ body {
 	overflow: hidden;
 	width: 600px;
 	max-width: 100%;
+	align-items: center;
 }
 
 .header {
@@ -35,14 +37,14 @@ body {
 }
 
 .form {
-	padding: 10px 40px;	
+	padding: 10px 40px;
 }
 
 .form-control {
 	margin-bottom: 5px;
 	padding-bottom: 20px;
 	position: relative;
-    border: none;
+	border: none;
 }
 
 .form-control label {
@@ -91,18 +93,110 @@ body {
 	border-radius: 4px;
 	color: #fff;
 	display: flex;
-    justify-content: center;
+	justify-content: center;
 	font-family: inherit;
 	font-size: 16px;
 	padding: 10px;
 	margin-top: 20px;
 	width: 40%;
 }
-.botones{
-    width: 100%;
-    display: flex;
-    align-items: center;
+
+.botones {
+	width: 100%;
+	display: flex;
+	align-items: center;
 }
-.continuar{
-    margin-left: auto;
+
+.continuar {
+	margin-left: auto;
+}
+
+h1 {
+	text-align: center;
+	color: darkslategrey;
+}
+
+.search {
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+
+}
+
+.li-container {
+	background-color: white;
+	width: 100%;
+	color: darkslategray;
+	margin-top: 20px;
+}
+
+ul {
+	padding: 0;
+}
+
+li {
+	list-style: none;
+	background-color: lightgray;
+	border-radius: 10px;
+	margin-top: 15px;
+	display: flex;
+}
+
+li p {
+	margin: 0;
+	padding: 15px;
+	width: 100%;
+}
+
+.btn-delete {
+	margin-left: auto;
+	border: none;
+	background-color: #e31746;
+	color: white;
+	font-weight: bold;
+	padding: 5px 10px;
+	outline: none;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	width: 10%;
+	font-size: 1.2em;
+}
+
+.btn-delete:hover {
+	cursor: pointer;
+	background-color: lightseagreen;
+}
+
+.btn-add {
+	padding: 5px 15px;
+	border: none;
+	color: white;
+	font-family: fantasy;
+	background-color: teal;
+	font-size: 1.4rem;
+	outline: none;
+}
+
+.btn-add:hover {
+	cursor: pointer;
+	background-color: darkcyan;
+}
+
+.empty {
+	color: darkslategrey;
+	width: 50%;
+	text-align: center;
+	margin-left: 150px;
+	
+
+}
+
+.search form {
+	display: flex;
+}
+
+.formList input {
+	padding: 15px 10px;
+	outline: none;
+	width: 100%;
 }
